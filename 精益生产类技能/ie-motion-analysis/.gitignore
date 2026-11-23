@@ -15,10 +15,10 @@ contact_sheets/
 manifest.json
 changes.json
 
-# 分析交付物（按需取消注释）
-# *_动作分析表单.xlsx
-# *_流程程序图.html
-# 分析数据.json
+# 分析交付物（含真实工时/产品信息，默认不入库；assets/ 下的空白模板不受影响）
+*_动作分析表单.xlsx
+*_流程程序图.html
+分析数据.json
 
 # 编辑器 / 系统
 .vscode/
