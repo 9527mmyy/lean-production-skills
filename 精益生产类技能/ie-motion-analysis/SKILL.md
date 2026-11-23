@@ -1,5 +1,6 @@
 ---
 name: ie-motion-analysis
+author: moy
 description: 对用户提供的装配、焊接、机加、打压、打磨等生产现场作业视频进行逐帧动作拆分与工业工程（IE）动作分析。当用户需要对作业视频做动素（Therblig）识别、价值分类、ECRS 与动作经济原则浪费分析、形成现状与改善点、输出改善报告，并按标准生成带改善建议的流程程序图时使用本技能。
 agent_created: true
 ---

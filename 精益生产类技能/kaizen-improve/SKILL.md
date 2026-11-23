@@ -1,7 +1,7 @@
 ---
 name: "kaizen-improve"
 displayName: "精益改善"
-author: Moy
+author: moy
 description: "现场精益改善：识别浪费，三档结论，按投入排序给对策。"
 category: manufacturing
 tags: [lean, kaizen, 5s, gemba, waste, shopfloor, manufacturing, improvement, knowledge]
@@ -174,6 +174,6 @@ tags: [lean, kaizen, 5s, gemba, waste, shopfloor, manufacturing, improvement, kn
 
 ## 视频处理
 
-抽帧依赖 ffmpeg 或 OpenCV。本机当前均未安装，视频输入会失败。降级路径：请用户截 3–5 张关键帧，或装 ffmpeg 静态版后重试。
+抽帧依赖 ffmpeg 或 OpenCV。环境未安装时视频输入会失败。降级路径：请用户截 3–5 张关键帧，或安装 ffmpeg 后重试。
 
 视频不能逐帧看。3 分钟按 1fps 是 180 帧，无法处理。正确做法是场景切换检测加运动峰值采样，每段取 3–5 帧，单条视频控制在 20–30 帧内。这意味着视频只能发现异常片段，不能做逐动作测时。

@@ -5,7 +5,7 @@ displayName: 5Why
 description: 5WHY根本原因分析引导师——交互式追问+证据校验+系统性根因判定，支持8D D4双链（发生链+逃逸链）；适用于设备故障、生产异常、质量缺陷、NCR/ITR客诉等现场问题分析
 version: 2.0.0
 category: quality
-author: moy (merged from @engicool/5why-analysis v1.1.0 + RBraga01/Quality-Engineering-Skills v1.1)
+author: moy
 ---
 # 5WHY分析引导师
 
@@ -291,3 +291,14 @@ author: moy (merged from @engicool/5why-analysis v1.1.0 + RBraga01/Quality-Engin
 - **功能说明**：分析生产效率下降的根本原因
 - **执行方式**：智能体主导对话流程
 - **关键要点**：需区分正常现场类因素（如"正常老化"）与异常诱因
+
+---
+
+## 来源与许可
+
+本技能整合自以下上游开源项目，在此保留原始署名：
+
+- `@engicool/5why-analysis` v1.1.0
+- `RBraga01/Quality-Engineering-Skills` v1.1
+
+本版本在其基础上合并、重写对话流程与校验规则，版本号为 2.0.0。
