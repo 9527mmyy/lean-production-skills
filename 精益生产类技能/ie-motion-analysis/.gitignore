@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 视频与抽帧中间产物（含现场敏感信息，勿入库）
+*.mp4
+*.mov
+*.avi
+*.mkv
+frames/
+contact_sheets/
+manifest.json
+changes.json
+
+# 分析交付物（按需取消注释）
+# *_动作分析表单.xlsx
+# *_流程程序图.html
+# 分析数据.json
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

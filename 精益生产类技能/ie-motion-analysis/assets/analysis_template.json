@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "product": "待补充",
+    "drawing_no": "待补充",
+    "researcher": "待补充",
+    "manpower": "1 人",
+    "date": "待补充",
+    "welding_current": "—",
+    "welding_voltage": "—",
+    "transport_distance": "",
+    "work_time": "",
+    "station": "待补充",
+    "operation": "待补充",
+    "department": "待补充",
+    "cycle": "待补充",
+    "video_file": "待补充"
+  },
+  "actions": [
+    {
+      "seq": 1,
+      "content": "示例：用检验工装检验",
+      "distance": 0,
+      "time": 10,
+      "symbol": "I",
+      "value": "M",
+      "problem": "",
+      "ecrs": "",
+      "suggestion": "",
+      "remark": "",
+      "therblig": "检验 Inspect"
+    },
+    {
+      "seq": 2,
+      "content": "示例：清理飞溅",
+      "distance": 0,
+      "time": 27,
+      "symbol": "O",
+      "value": "N",
+      "problem": "清理飞溅过程中需旋转工件",
+      "ecrs": "C",
+      "suggestion": "1、低飞溅焊机引入；2、重新定义飞溅处理要求；3、旋转工作台引入",
+      "remark": "",
+      "therblig": "使用 Use"
+    }
+  ],
+  "problems": [
+    {
+      "seq": 1,
+      "desc": "示例：清理飞溅",
+      "therblig": "使用 Use（旋转工件）",
+      "category": "动作浪费",
+      "problem": "清理飞溅过程中需旋转工件，单次约 27S",
+      "freq": 12,
+      "unit_time": 27,
+      "waste_type": "多余加工/辅助浪费",
+      "severity": "中",
+      "owner": "待补充",
+      "status": "未改善",
+      "remark": ""
+    }
+  ]
+}

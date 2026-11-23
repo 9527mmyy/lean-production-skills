@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 现场视频与抽帧中间产物（含敏感信息，勿入库）
+*.mp4
+*.mov
+*.avi
+*.mkv
+frames/
+contact_sheets/
+manifest.json
+changes.json
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

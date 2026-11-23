@@ -1,0 +1,6 @@
+openpyxl>=3.1
+Pillow>=10.0
+# 抽帧后端，三选一（extract_frames.py 按 ffmpeg → OpenCV → imageio 顺序自动选择）：
+# ffmpeg（系统 PATH 中）或 imageio-ffmpeg
+# opencv-python-headless>=4.8
+# imageio-ffmpeg>=0.4
